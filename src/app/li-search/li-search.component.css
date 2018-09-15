@@ -1,0 +1,42 @@
+.search-result li {
+  border: 2px solid white;
+  color:#000;
+  width:200px;
+  height: 20px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity:0.5;
+  cursor: pointer;
+  list-style-type: none;
+}
+
+.search-result li:hover {
+  color:#aff
+}
+
+.search-result li a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+
+.search-result li a:hover {
+  color: ffc;
+}
+.search-result li a:active {
+  color: white;
+}
+#search-box {
+  width: 200px;
+  height: 20px;
+  opacity:0.3;
+}
+
+
+ul.search-result {
+  margin-top: 0;
+  padding-left: 0;
+}
+h3{
+color:#fff}

@@ -1,0 +1,18 @@
+<div *ngIf="li">
+<h2 style="color:#fff">{{li.item}} Details</h2>
+<div style="text-align:left; margin-left:580px;" *ngFor="let artical of li.articals">
+<input type="checkbox">
+<label style="color:#fff">
+{{artical | json}}</label>
+</div>
+<div>
+  <label style="color:#fff">Artical name:
+    <input #artName />
+  </label>
+  <button>
+    Add
+  </button>
+</div>
+</div>
+
+

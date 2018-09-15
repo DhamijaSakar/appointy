@@ -1,0 +1,23 @@
+<h2>List Types</h2>
+
+<div>
+  <label>List name:
+    <input #liName />
+  </label>
+  <!-- (click) passes input value to add() and then clears the input -->
+  <button (click)="add(liName.value); liName.value=''">
+    add
+  </button>
+</div>
+
+<div style="text-align:left">
+<ul class="lis">
+  <li *ngFor="let li of lis">
+<a routerLink="/detail/{{li.id}}">
+    <span class="badge">{{li.id}}</span> {{li.item}}
+</a>
+<button class="delete" title="delete li"
+  (click)="delete(li)">x</button>
+  </li>
+</ul>
+</div>

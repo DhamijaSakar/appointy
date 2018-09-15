@@ -1,0 +1,122 @@
+h2{
+color:white;
+}
+div.addition
+{
+position: absolute;
+right: 30px;
+bottom: 80px;
+animation : add;
+animation-duration:3s;
+animation-fill-mode: forwards; 
+}
+@keyframes add {
+0% {right: -100px}
+100% {right: 70px}
+}
+
+button{
+opacity:0.7;
+margin:5px;
+}
+
+label{
+text-align:left;
+color:white;
+margin: auto;
+text-decoration: none;
+padding: 10px;
+opacity:0.5;
+}
+input{
+position: relative;
+padding:5px;
+margin-top:5px;
+margin-right:5px;
+}
+
+div.listitems
+{
+position: absolute;
+left: 30px;
+bottom: 80px;
+animation : item;
+animation-duration:3s;
+animation-fill-mode: forwards; 
+}
+@keyframes item{
+0% {left: -100px}
+100% {left: 70px}
+}
+.lis {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 15em;
+}
+.lis li {
+  position: relative;
+  cursor: pointer;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+}
+
+.lis li:hover {
+  color: #607D8B;
+  background-color: #DDD;
+  left: .1em;
+}
+
+.lis a {
+  color: #888;
+  text-decoration: none;
+  position: relative;
+  display: block;
+  width: 250px;
+}
+
+.lis a:hover {
+  color:#607D8B;
+}
+
+.lis .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #607D8B;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  min-width: 16px;
+  text-align: right;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+}
+
+button {
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+  font-family: Arial;
+}
+
+button:hover {
+  background-color: #cfd8dc;
+}
+
+button.delete {
+  position: relative;
+  left: 194px;
+  top: -32px;
+  background-color: gray !important;
+  color: white;
+}

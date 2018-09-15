@@ -1,0 +1,13 @@
+
+p
+{
+color:#fff;
+position: relative;
+animation: para;
+animation-duration: 3s;
+animation-fill-mode: forwards; 
+}
+@keyframes para{
+0% {left: -1000px}
+100% {left: 20px}
+}

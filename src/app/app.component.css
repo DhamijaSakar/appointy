@@ -1,0 +1,41 @@
+
+nav a {
+  color: #fff;
+  padding: 1rem 2rem;
+  border: #fff 2px solid;
+  text-decoration: none;
+  margin: 40px;
+  opacity: 0;
+  display: inline-block;
+  border-radius: 4px;
+  animation-name: btn;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes btn{
+0% {opacity:0}
+100% {opacity:1}
+}
+
+nav a:visited, a:link {
+  color: #fff;
+}
+nav a:hover {
+  color: #cff;
+  
+}
+nav a.active {
+  color: #ffc;
+}
+h1
+{
+position: relative;
+animation: heading;
+animation-duration: 2s;
+animation-fill-mode: forwards; 
+}
+@keyframes heading{
+0% {top: -50px}
+100% {top: 20px}
+}
